@@ -1,5 +1,5 @@
 # Introduction
-A simple 2D maze game written in pure Javascript. Use the arrow keys or the gamepad to get the key and scape.
+A simple 2D maze game written in pure Javascript. Use the arrow keys or the gamepad to get the key and scape. You can play this game on [https://the-maze.cscazorla.es/](https://the-maze.cscazorla.es/)
 
 ![GitHub Logo](/img/screenshot.png)
 
@@ -15,6 +15,5 @@ Everytime the game is loaded a new maze is generated using the simple [Depth-fir
 Tiles from https://opengameart.org/content/platformer-art-deluxe
 
 # To Do
-- Add init screen to select difficulty
-- Render screen on window resize
 - Enable camera view
+- Render screen on window resize
