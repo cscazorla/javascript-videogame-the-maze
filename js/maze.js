@@ -11,7 +11,7 @@ var maze = function(cols, col_width) {
     this.key_image.src = this.key_image_file;
 
     this.cols = cols;
-    this.rows = Math.floor(this.cols / 1.77) - 1;
+    this.rows = Math.floor(this.cols / 1.77777777778) - 1;
 
     this.col_width = col_width;
     this.cell_width = this.col_width - this.wall_line_width;

@@ -62,7 +62,19 @@ var UI = function() {
 
         Game.ctx.font="bold 40px Georgia";
         Game.ctx.fillStyle = '#FFF';
-        Game.ctx.fillText("You escaped!", Game.canvas.width/2 - 110, Game.canvas.height/2);
+        Game.ctx.textAlign = "center";
+        Game.ctx.fillText(
+            "You escaped!", 
+            Game.canvas.width/2, 
+            Game.canvas.height/2)
+        ;
+
+        Game.ctx.font="bold 20px Georgia";
+        Game.ctx.fillText(
+            "Reload the page to play again", 
+            Game.canvas.width/2, 
+            Game.canvas.height/1.5
+        );
     };
 
     this.createWindow = function(background_color, border_color, width, height) {

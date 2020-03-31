@@ -1,8 +1,7 @@
 window.onload = function () {
     canvas = document.getElementById('canvas');
-    canvas.width = window.innerWidth * 0.99;
-    canvas.height = window.innerWidth / 1.8;
-    canvas.style.display= 'block';
+    canvas.width = window.innerWidth * 0.9;
+    canvas.height = window.innerHeight * 0.9;
     canvas.style.margin = "auto";
 
     Game.init(canvas);
