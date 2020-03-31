@@ -143,7 +143,8 @@ var player = function (_x,_y) {
             if(!this.has_key) {
                 console.log('Necesitas la llave para salir');
             } else {
-                console.log('Enhorabuena');
+                Game.paused = true;
+                cancelAnimationFrame(Game.reqanimationreference);
             }
         }
     };
