@@ -1,6 +1,9 @@
 # Introduction
 A simple 2D maze game written in pure Javascript. Use the arrow keys or the gamepad to get the key and scape.
 
+![GitHub Logo](/img/screenshot.png)
+
+
 # The maze
 Everytime the game is loaded a new maze is generated using the simple [Depth-first search algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Depth-first_search):
 
